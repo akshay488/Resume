@@ -1,0 +1,40 @@
+
+@media screen and (max-width:360px) {
+    .left{
+        grid-column: 1/ span 5;
+        grid-row: 1/1;
+    
+    }
+    .about{
+        padding: 0 1.6rem ;
+        grid-column: 1/span 5;
+        grid-row: 2/2;
+        width: 100%;
+       
+    }
+
+    .btn{
+      
+        max-width: none;
+     }
+    .education{
+        grid-column: 1/span 5;
+        grid-row: 3/3;
+        padding: 0 1.6rem ;
+    }
+
+    .right{
+        padding: 1.5rem;
+        grid-column: 1/span 5;
+        grid-row: 4/4;
+        padding: 0 1.6rem ;
+    }
+    /* my work */
+
+    .project{
+        
+        width: 70%;
+      
+       
+    }
+}
