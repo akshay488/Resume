@@ -11,7 +11,10 @@ html{
     margin: 0;
     box-sizing: inherit;
 }
-
+a {
+    text-decoration: none;
+    color: #fff;
+}
 h5{
     font-size: 1.8rem;
     margin: 1rem 0;
@@ -58,6 +61,11 @@ p{
     grid-row: 1/1;
     width: 100%;
    
+   
+}
+.me{
+    width: 100%;
+    max-width: 600px;
 }
 .btn{
    border: none;
